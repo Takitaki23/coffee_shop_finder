@@ -28,7 +28,6 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
-    - lib/json/
 
   fonts:
     - family: PlusJakarta
