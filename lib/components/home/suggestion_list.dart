@@ -27,7 +27,7 @@ class SuggestionList extends StatelessWidget {
                     height: 60,
                     width: 60,
                     decoration: BoxDecoration(
-                      color: const Color(0xffb96d40),
+                      color: Color.fromARGB(255, 189, 135, 77),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Center(
@@ -60,7 +60,7 @@ class SuggestionList extends StatelessWidget {
                     height: 40,
                     width: 40,
                     decoration: BoxDecoration(
-                      color: const Color(0xffb96d40),
+                      color: Color.fromARGB(255, 189, 135, 77),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: const Center(

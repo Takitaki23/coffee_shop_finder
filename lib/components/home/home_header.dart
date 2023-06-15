@@ -16,40 +16,51 @@ class HomeHeader extends StatelessWidget {
             children: [
               Row(
                 children: const [
-                  Icon(Icons.my_location),
+                  Icon(
+                    Icons.coffee,
+                    size: 20,
+                    color: Colors.black,
+                  ),
                   SizedBox(width: 6),
                   Text(
-                    'PEKANBARU',
+                    'Coffee Shop Finder',
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      letterSpacing: 2.45,
+                      letterSpacing: 1.5,
+                      color: Colors.black,
                     ),
                   ),
                 ],
               ),
-              Image.asset('assets/images/profile.png'),
+              IconButton(
+                icon: Icon(
+                  Icons.notifications,
+                  size: 20,
+                  color: Colors.black,
+                ),
+                onPressed: () {
+                  // Add notification functionality here
+                },
+              ),
             ],
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
-              Text(
-                'Discover',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-              Text(
-                'Coffee Shop',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-            ],
+          SizedBox(height: 20),
+          Text(
+            'Discover',
+            style: TextStyle(
+              fontSize: 32,
+              fontWeight: FontWeight.w700,
+              color: Colors.black,
+            ),
+          ),
+          Text(
+            'Amazing Coffee Shops',
+            style: TextStyle(
+              fontSize: 32,
+              fontWeight: FontWeight.w800,
+              color: Colors.black,
+            ),
           ),
         ],
       ),

@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Coffe_Shop_Finder',
+      title: 'Coffee Shop Finder',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'PlusJakarta'),
       home: const HomeScreen(),

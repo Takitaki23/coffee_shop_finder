@@ -21,7 +21,6 @@ class _HomeScreenState extends State<HomeScreen> {
           children: const [
             HomeHeader(),
             SizedBox(height: 20),
-            SearchBar(),
             SizedBox(height: 20),
             SectionTitle(title: 'Trending'),
             SizedBox(height: 20),

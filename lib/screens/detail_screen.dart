@@ -25,23 +25,31 @@ class _DetailScreenState extends State<DetailScreen> {
           children: [
             DetailHeader(title: widget.title),
             const SizedBox(height: 15),
-            const SectionTitle(),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: SectionTitle(),
+            ),
             const SizedBox(height: 15),
-            const PhotoList(),
+            PhotoList(),
             const SizedBox(height: 20),
-            // suggestion text
-            const DetailInfo(
-              title: 'Description',
-              description:
-                  'Janji Jiwa adopts a bean-to-cup concept that\nserves a selection of Indonesia Local Coffee.\nwe offer a classic coffee product to our customer.',
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: DetailInfo(
+                title: 'Description',
+                description:
+                    'Welcome to our cozy coffee shop, a haven for coffee enthusiasts and connoisseurs alike. Indulge in the rich aroma of freshly brewed coffee as you step into our inviting space.',
+              ),
             ),
             const SizedBox(height: 20),
-            DetailInfo(
-              title: 'Location',
-              description: '${widget.location}\n4 km away from your location.',
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: DetailInfo(
+                title: 'Location',
+                description: '${widget.location}\n km away from your location.',
+              ),
             ),
             const SizedBox(height: 20),
-            const DetailFooter(),
+            DetailFooter(),
           ],
         ),
       ),

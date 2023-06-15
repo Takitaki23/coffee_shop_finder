@@ -1,41 +1,41 @@
 List<String> photos = [
-  "assets/images/photo1.jpg",
-  "assets/images/photo2.jpg",
-  "assets/images/photo3.jpg"
+  "images/trending1.jpg",
+  "images/trending2.jpg",
+  "images/trending3.jpg"
 ];
 
 List trending = [
   {
-    "title": "Janji Jiwa Coffee",
-    "subtitle": "Mall SKA, Pekanbaru",
-    "imageUrl": "assets/images/trending1.jpg"
+    "title": "Brew Haven Coffee Shop",
+    "subtitle": "Cataning, City of Balanga, Bataan",
+    "imageUrl": "images/trending1.jpg"
   },
   {
-    "title": "Kimteng Coffee",
-    "subtitle": "Ciputra Seraya, Pekanbaru",
-    "imageUrl": "assets/images/trending2.jpg"
+    "title": "Espresso Emporium Coffee Shop",
+    "subtitle": "Orion, Bataan",
+    "imageUrl": "images/trending2.jpg"
   },
   {
-    "title": "Starbucks",
-    "subtitle": "Transmart Soetta, Pekanbaru",
-    "imageUrl": "assets/images/trending3.jpg"
+    "title": "Star Box",
+    "subtitle": "Duale, Limay",
+    "imageUrl": "images/trending3.jpg"
   }
 ];
 
 List suggestion = [
   {
-    "title": "Starbucks",
-    "subtitle": "1.4 km away from your location ",
-    "imageUrl": "assets/images/beans.png"
+    "title": "Brew Haven Coffee Shop",
+    "subtitle": "5 km away from your location ",
+    "imageUrl": "images/beans.png"
   },
   {
-    "title": "Kimteng Coffee",
-    "subtitle": "2.3 km away from your location",
-    "imageUrl": "assets/images/cup.png"
+    "title": "Espresso Emporium Coffee Shop",
+    "subtitle": "7 km away from your location",
+    "imageUrl": "images/cup.png"
   },
   {
-    "title": "Coffeholic",
-    "subtitle": "1.4 km away from your location ",
-    "imageUrl": "assets/images/cup.png"
+    "title": "Star Box",
+    "subtitle": "3 km away from your location ",
+    "imageUrl": "images/option.png"
   }
 ];

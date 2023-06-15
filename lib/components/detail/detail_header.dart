@@ -44,7 +44,7 @@ class DetailHeader extends StatelessWidget {
               ),
               const SizedBox(height: 5),
               const Text(
-                'Coffe from the heart',
+                '',
                 style: TextStyle(
                   color: Colors.black38,
                   fontSize: 16,
@@ -76,7 +76,7 @@ class DetailHeader extends StatelessWidget {
                   ),
                   const SizedBox(width: 100),
                   const Text(
-                    '204 Reviewers',
+                    '100 Reviewers',
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.bold,

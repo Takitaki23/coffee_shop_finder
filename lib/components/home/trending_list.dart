@@ -40,7 +40,8 @@ class TrendingList extends StatelessWidget {
                       child: Image.asset(
                         trending[index]['imageUrl'],
                         fit: BoxFit.cover,
-                        color: Colors.black.withOpacity(0.1),
+                        color:
+                            Color.fromARGB(255, 97, 158, 204).withOpacity(0.1),
                         colorBlendMode: BlendMode.darken,
                       ),
                     ),

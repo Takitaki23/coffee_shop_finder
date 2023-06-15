@@ -13,20 +13,18 @@ class DetailFooter extends StatelessWidget {
         children: [
           Row(
             children: [
-              Image.asset('assets/images/profile.png'),
-              const SizedBox(width: 20),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
                   Text(
-                    'Maxi Aditya',
+                    'Customer',
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
-                    'Pretty Cool!',
+                    'Satisfied!',
                     style: TextStyle(
                       color: Colors.black38,
                       fontSize: 16,
